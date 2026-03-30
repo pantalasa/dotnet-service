@@ -1,22 +1,18 @@
 # DotnetService
 
-A sample .NET 8 web service for testing Lunar collector/policy integration.
+A sample .NET 8 web service for testing Lunar collectors and policies.
 
-## Installation
+## Project Structure
+
+- `src/DotnetService/` — ASP.NET Core web API
+- `tests/DotnetService.Tests/` — xUnit test project
+- `global.json` — SDK version pinned to 8.0.300
+- `Directory.Build.props` — Shared build properties
+
+## Build
 
 ```bash
 dotnet restore
 dotnet build
+dotnet test
 ```
-
-## Usage
-
-```bash
-dotnet run --project src/DotnetService
-```
-
-## Contributing
-
-1. Fork the repo
-2. Create a feature branch
-3. Submit a PR
