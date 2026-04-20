@@ -16,3 +16,5 @@ dotnet restore
 dotnet build
 dotnet test
 ```
+
+<!-- Trigger compliance-bundle collector -->
