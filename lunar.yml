@@ -1,0 +1,5 @@
+# Datadog monitoring declaration — read by the datadog-monitoring cataloger
+# (sets datadog/service-name + datadog/dashboard-id for the observability guardrail).
+datadog:
+  service: dotnet-service
+  dashboard_id: 5cd-a7w-fex
